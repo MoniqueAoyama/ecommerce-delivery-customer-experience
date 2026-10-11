@@ -1,6 +1,9 @@
 # Data: download from Kaggle
 *.csv
 
+# Export used by the Tableau dashboard
+!exports/*.csv
+
 # Jupyter and macOS files
 .ipynb_checkpoints/
 .DS_Store
